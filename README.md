@@ -34,7 +34,6 @@ image:
 tasks:
   - name: Doppler
     command: |
-      export DOPPLER_TOKEN=$(gp env | grep DOPPLER_TOKEN | cut -d '=' -f 2)
       doppler setup
 ```
 
